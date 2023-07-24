@@ -1,0 +1,53 @@
+/* Thiết lập font chữ cho toàn bộ trang */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Thiết lập nền và kích thước cho tiêu đề h1 */
+h1 {
+  background-color: #70c5ce;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Thiết lập định dạng cho phần hướng dẫn chơi */
+p {
+  text-align: center;
+}
+
+/* Thiết lập kích thước và căn giữa canvas */
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Thiết lập màu sắc cho background và các yếu tố trong trò chơi */
+body {
+  background-color: #70c5ce;
+}
+
+/* Màu sắc cho chim */
+#bird {
+  fill: #f6c12d;
+}
+
+/* Màu sắc cho ống nước */
+.pipe {
+  fill: #007ea7;
+}
+
+/* Màu sắc cho điểm số */
+#score {
+  fill: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Ẩn con trỏ chuột */
+canvas {
+  cursor: none;
+}
